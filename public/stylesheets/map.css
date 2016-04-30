@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body {
+    background: url("../images/background.jpg") no-repeat 50% 50% fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: "Lato", sans-serif;
+    /*padding-bottom: 50%;*/
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 71px 0 20px;
+    border-bottom: none;
+}
+.jumbotron {
+    /*padding-top: 1px;*/
+    margin: 61px 0 10px;
+    height: 85%;
+    min-height: 500px;
+    background-color: rgba(191, 191, 191, 0.3);
+}
+
+#admin-map-container {
+    height: 90%;
+    min-height: 500px;
+    margin-bottom: auto;
+}
+
+#admin-map {
+    height: 85%;
+    min-height: 480px;
+    width: 100%;
+}
+
+#map-container {
+    height: 90%;
+    min-height: 500px;
+    margin-bottom: auto;
+}
+
+#map {
+    height: 85%;
+    min-height: 480px;
+    width: 100%;
+    /*overflow: scroll;*/
+    /*background-color: rgba(191, 191, 191, 0.3);*/
+}
+
+.my-btn-group {
+    /*margin: 71px 0 0;*/
+}
+
+.label-map {
+    background-color: rgba(0, 0, 0, 0.3);
+}
